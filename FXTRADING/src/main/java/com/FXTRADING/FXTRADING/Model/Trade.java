@@ -1,6 +1,4 @@
-package com.FXTRADING.FXTRADING.Model;
-
-import io.micrometer.common.lang.NonNull;
+package com.Fxtrading.FXTrading.Model;
 
 public class Trade {
     /*
@@ -69,5 +67,5 @@ public class Trade {
 				+ "customerName=" + customerName
 				+ ", currencyPair=" + currencyPair 
 				+ ", amount=" + amount + "]";
-	}	
+	}
 }
