@@ -17,7 +17,7 @@ public class FormatFxTrading
 	private static List<Trade> bookedTrade = new ArrayList<>();
 	
 	//Validation method
-	public static Object dsoTrade(Trade trade) 
+	public static Object doTrade(Trade trade) 
 	{
 		double indianAmount = 0;
 		Map<String , String> userError = new TreeMap<>();
